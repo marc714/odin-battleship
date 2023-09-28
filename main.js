@@ -745,4 +745,4 @@ window.onclick = function(event) {
 }
 
 
-export { Ship, Gameboard }
+// export { Ship, Gameboard }
