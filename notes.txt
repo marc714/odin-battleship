@@ -1,0 +1,6 @@
+https://codepen.io/marcxy/pen/XWodLJZ?editors=0011
+https://www.samanthaming.com/tidbits/5-concise-method-syntax/
+https://www.geeksforgeeks.org/shorthand-syntax-for-object-property-value-in-es6/#
+https://www.w3schools.com/js/js_object_methods.asp
+https://jsfiddle.net/marcxy/9ey7d3tp/3/
+https://dev.to/smotchkkiss/function-identity-in-javascript-or-how-to-remove-event-listeners-properly-1ll3

@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    /* margin: auto; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: auto;
+    background-color: lightblue;
+    font-size: 30px;
+}
+
+.sub-title {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.grid {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+#gameboard-container {
+    display: flex;
+    flex-direction: row;
+    /* min-width: 1390px; */
+    /* max-width: 1420px; */
+    /* max-height: 1000px; */
+    margin: auto;
+    gap: 50px;
+    
+}
+
+.gameboard-left, .gameboard-right  {
+    margin: auto;
+}
+
+#gameboard-first, #gameboard-second {
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: grey;
+    margin: auto;
+}
+
+.button {
+    border: 1px solid black;
+    width: 100px;
+}
+
+.occupied {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 600;
+    color: white;
+}
+
+.legend {
+    text-align: center;
+    
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: rgb(0,0,0); /* Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */ 
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 137px auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 581px;
+    opacity: .9;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#cover {
+    font-size: 200px;
+    width: 1290px;
+    height: 620px;
+    margin: auto;
+    /* margin-top: -620px; */
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

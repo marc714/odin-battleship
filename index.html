@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="new-game" class="button">New Game</div>
+    <div id="reload" class="button">Reload</div>
+    <div id="boat-direction-vertical" class="button">Vertical</div>
+    <div id="boat-direction-horizontal" class="button">Hortizontal</div>
+    <div class="message">Prepare for battle!</div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+        <!-- <span class="close">&times;</span> -->
+        <span class="close">&times; New Game</span>
+        <p>Game Over..</p>
+        </div>
+    
+    </div>
+
+    
+
+    <div id="gameboard-container">
+        <div class="gameboard-left">
+            <div class="sub-title">Player One</div>
+            <div class="legend legend-one">
+                <span class="legend-ships carrier">Carrier</span>
+                <span class="legend-ships battleship">Battleship</span>
+                <span class="legend-ships destroyer">Destroyer</span>
+                <span class="legend-ships submarine">Submarine</span>
+                <span class="legend-ships patrol">Patrol</span>
+            </div>
+            <div id="gameboard-first"></div>
+        </div>
+        <div class="gameboard-right">
+            <div class="sub-title">Player Two</div>
+            <div class="legend legend-two">
+                <span class="legend-ships carrier">Carrier</span>
+                <span class="legend-ships battleship">Battleship</span>
+                <span class="legend-ships destroyer">Destroyer</span>
+                <span class="legend-ships submarine">Submarine</span>
+                <span class="legend-ships patrol">Patrol</span>
+            </div>
+            <div id="gameboard-second"></div> 
+        </div>
+        
+    </div>
+    <div id="cover">BOOM!</div>
+    
+</body>
+</html>
